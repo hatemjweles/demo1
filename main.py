@@ -19,7 +19,3 @@ def to_sentence(s) -> str:
 
 def fun():
     print("test")
-
-    
-
-def :
