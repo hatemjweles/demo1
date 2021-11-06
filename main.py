@@ -21,3 +21,5 @@ def fun():
     print("test")
 
     
+
+def :
