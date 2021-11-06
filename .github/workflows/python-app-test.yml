@@ -59,6 +59,7 @@ jobs:
         python -m pytest
         
     - name: build docker img
+      if: github.ref=='refs/heads/master' && job.status =='success'
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: hatemjweles/demo-sw
