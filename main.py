@@ -14,6 +14,10 @@ def to_sentence(s) -> str:
     else:
         return s + '.'
 
+
+
+
 def fun():
     print("test")
+
     
