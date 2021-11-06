@@ -58,8 +58,8 @@ jobs:
       run: |
         python -m pytest
         
+    - name: build docker img
       uses: mr-smithers-excellent/docker-build-push@v5
-    - name: Build & push Docker image
       with:
         image: hatemjweles/demo-sw
         tags: v1, latest
