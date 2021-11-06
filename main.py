@@ -18,4 +18,4 @@ def to_sentence(s) -> str:
 
 
 def fun():
-    p7rint("test")
+    print("test")
