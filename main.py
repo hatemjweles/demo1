@@ -1,7 +1,7 @@
+import math
 import os
 
 
-import math
 
 
 def add(a, b) -> int:
